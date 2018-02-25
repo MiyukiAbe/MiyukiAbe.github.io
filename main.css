@@ -89,16 +89,21 @@ p {
 }
  
 .Home {
-	background-image: url("https://miyukiabe.github.io/images/AboutMe2.jpg");
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://miyukiabe.github.io/images/AboutMe2.jpg");
-	background-image: webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://miyukiabe.github.io/images/AboutMe2.jpg");
-	background: moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://miyukiabe.github.io/images/AboutMe2.jpg");
+	background-image: url("../AboutMe_Business/images/AboutMe2.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
+	background-image: webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
+	background: moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
 	background-repeat: no-repeat;
 	background-position: center bottom; 
 	background-size: cover;
 	background-attachment: fixed;
   justify-content: center;
 }
+
+
+
+
+
 
 .slide {
   padding-top: 40px;
