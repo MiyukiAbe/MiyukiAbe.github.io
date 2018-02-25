@@ -89,10 +89,10 @@ p {
 }
  
 .Home {
-	background-image: url("../AboutMe_Business/images/AboutMe2.jpg");
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
-	background-image: webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
-	background: moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
+	background-image: url("MiyukiAbe.github.io/images/AboutMe2.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("MiyukiAbe.github.io/images/AboutMe2.jpg.jpg");
+	background-image: webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("MiyukiAbe.github.io/images/AboutMe2.jpg.jpg");
+	background: moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("MiyukiAbe.github.io/images/AboutMe2.jpg.jpg");
 	background-repeat: no-repeat;
 	background-position: center bottom; 
 	background-size: cover;
