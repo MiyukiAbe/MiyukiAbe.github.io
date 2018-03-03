@@ -1,39 +1,39 @@
 body {
-	font-family: 'Poppins', sans-serif;
-	background-color: rgba(123, 124, 124, 0.3);
-	transition: all 1s ease;
-	font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(123, 124, 124, 0.3);
+  transition: all 1s ease;
+  font-size: 20px;
 }
 
 .headforall {
-/*	display: flex;
-	justify-content: space-between;*/
-	background-color: #ffffdd;
-	position: fixed;
-	z-index: 99;
-	width: 100%;
-	height: auto;
-	top: 0;
-	left: 0;
+/*  display: flex;
+  justify-content: space-between;*/
+  background-color: #ffffdd;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
 }
 
 .entiresitehead{
-	padding:0px 20px;
+  padding:0px 20px;
 }
 
 .dropdown {
-	display: none;
+  display: none;
 }
 
 .headtitle{
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .navheader{
-	margin-top: 20px;
-	display: flex;
-	align-items: center;
-	top: 0;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  top: 0;
 }
 
 ul {
@@ -43,13 +43,13 @@ ul {
  }
 
 li, li a {
-  	display: inline-block;
+    display: inline-block;
     padding: 10px;
     color: black;
 }
 
 li a:hover{
-	color: red;
+  color: red;
 }
 
 h1{
@@ -80,30 +80,26 @@ p {
 }
 
 .slide, .Home {
-/*	max-width: 100%; */
-	height: 800px;
-	display: flex;
+  height: 800px;
+  width: auto;
+  display: flex;
   flex-direction: column;
   align-items: center;
+
 
 }
  
 .Home {
-	background-image: url("../AboutMe_Business/images/AboutMe2.jpg");
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
-	background-image: webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
-	background: moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../AboutMe_Business/images/AboutMe2.jpg");
-	background-repeat: no-repeat;
-	background-position: center bottom; 
-	background-size: cover;
-	background-attachment: fixed;
+  background-image: url("./images/AboutMe2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./images/AboutMe2.jpg");
+  background-image: webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./images/AboutMe2.jpg");
+  background: moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./images/AboutMe2.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  background-size: cover;
+  background-attachment: fixed;
   justify-content: center;
 }
-
-
-
-
-
 
 .slide {
   padding-top: 40px;
@@ -115,21 +111,21 @@ p {
 }
 
 .color-orange{
-	background-color: rgba(244, 191, 66, 0.3);
+  background-color: rgba(244, 191, 66, 0.3);
 }
 
 .color-darkgrey {
-	background-color: rgba(83, 86, 100, 0.5);
+  background-color: rgba(83, 86, 100, 0.5);
 }
 
 
 .color-lightblue{
-	background-color: rgba(13, 134, 186, 0.2);
+  background-color: rgba(13, 134, 186, 0.2);
 
 }
 
 .color-lightgreen{
-	background-color: rgba(13, 198, 54, 0.2);
+  background-color: rgba(13, 198, 54, 0.2);
 }
 
 
@@ -143,8 +139,8 @@ p {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .35em; /* Adjust as needed */
   animation: 
-  	typing 3s steps(30, end), 
-  	blink-caret .5s step-end infinite;
+    typing 3s steps(30, end), 
+    blink-caret .5s step-end infinite;
 }
 
 
@@ -196,12 +192,10 @@ img.mySlides {
 }
 
 
-
 img.ZoomPic {
   max-width: 300px;
   height: auto;
   display: block;
-
 }
 
 
@@ -213,16 +207,22 @@ img.ZoomPic {
   flex-direction: column;
   align-items: center;
 
-/*  background: white;
-  border-radius: 10px;
-  box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0,0,0,.5);*/
 }
 
 .col-6 h3{
   color: black;
 }
 
+.profilePics_mobile {
+  display: none;
+}
+/*
+.profilePics_mobile img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+}
+*/
 .WhoisShe {
   padding-left: 50px;
 }
@@ -299,7 +299,7 @@ div.event-r{
 }
 
 .tip-left {
-  top: 40px;
+  top: 20px;
   left: -18px;
   border-top-color: transparent;
   border-left-color: transparent;
@@ -307,7 +307,7 @@ div.event-r{
 }
 
 .tip-right {
-  top: 40px;
+  top: 20px;
   left: 478px;
   border-top-color: transparent;
   border-right-color: transparent;
@@ -317,7 +317,7 @@ div.event-r{
 .container {
   width: 1000px;
   margin: auto;
-  overflow: auto;
+/*  overflow: auto;*/
   display: flex;
   flex-direction: column;
 
@@ -381,15 +381,59 @@ div .percent-r {
 
 }
 
+/*Portfolio Section*/
+
+.col-12 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(83, 86, 100, 0.5);
+ margin-top: 50px;
+}
+
+.PortfolioPics {
+ padding: 2%;
+}
+
+.PortfolioPics > h3{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.PortfolioPics img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*contact section*/
+
+.ContactMe h3 {
+  color: black;
+}
+
+.ContactMe p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.ContactMe h3 {
+  margin-bottom: 0px;
+}
 
 footer{
-	text-align: center;
-	background-color: #f7f8f9;
-	width: 100%;
-	height: auto;
-	position: fixed;
-	bottom: 0;
-	left: 0;
+  text-align: center;
+  background-color: #f7f8f9;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   z-index: 99;
 }
 
@@ -468,7 +512,6 @@ footer{
 .menuIcon:hover {
     background-color: black;
 }
-
 
 @media (max-width: 460px) {
 body {
