@@ -636,6 +636,7 @@ body {
 .Home {
   background-position: right; 
   background-attachment: scroll;
+  background-size: 450px auto;
 }
 
 
