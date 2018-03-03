@@ -633,6 +633,12 @@ body {
   height: 600px;
 }
 
+.Home {
+  background-position: right; 
+  background-attachment: scroll;
+}
+
+
 .slide {
   padding-top: 100px;
 }
