@@ -646,4 +646,14 @@ body {
     left: 7%;
 }
 
+  .skillBox p{
+ font-size: 1rem;
+}
+
+.skillBox span {
+  font-size: 1rem;
+}
+
+  
+  
 }
