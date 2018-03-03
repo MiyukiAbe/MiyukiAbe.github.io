@@ -645,6 +645,10 @@ body {
   max-width: 350px;
 }
 
+.WhoisShe h3{
+  padding-right: 90px;
+}
+
 .vl {
     border: 5px solid #f4af41;
     height: 550px;
