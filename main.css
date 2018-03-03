@@ -632,6 +632,11 @@ body {
 .slide, .Home {
   height: 600px;
 }
+
+.slide {
+  padding-top: 50px;
+}
+
 .typewriter h1 {
   font-size: 2rem;
 }
